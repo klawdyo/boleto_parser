@@ -1,0 +1,37 @@
+{
+  "name": "boleto_parser",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --testTimeout=30000",
+    "test:unit": "cross-env NODE_ENV=test jest --testTimeout=30000",
+    "test:coverage": "jest --collectCoverageFrom=src/**/*.ts --coverage",
+    "test:watch": "jest --watch",
+    "prepublish": "yarn build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^29.2.2",
+    "jest": "^29.2.2",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.0",
+    "typescript": "^4.8.4"
+  },
+  "author": {
+    "name": "Cláudio Medeiros",
+    "email": "klawdyo@gmail.com"
+  },
+  "description": "Analisador de código de barras e linha digitável de boletos",
+  "files": [
+    "./dist"
+  ],
+  "keywords": [
+    "boleto",
+    "parser",
+    "bb",
+    "banco do brasil"
+  ]
+}
