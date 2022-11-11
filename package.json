@@ -1,6 +1,6 @@
 {
   "name": "boleto_parser",
-  "version": "0.0.1",
+  "version": "0.0.1-a",
   "main": "./src/index.ts",
   "license": "MIT",
   "scripts": {
