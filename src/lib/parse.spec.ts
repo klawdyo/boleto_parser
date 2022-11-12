@@ -5,7 +5,7 @@ describe("parse", () => {
     const barcode = "07797900200000151300001112064449900815936556";
 
     const parsed = parse(barcode);
-    console.log(parsed);
+    // console.log(parsed);
 
     expect(parsed).toMatchObject({
       expires_at: new Date("2022-05-31"),
@@ -26,6 +26,6 @@ describe("parse", () => {
     const barcode = "07790.00116 12064.449908 08159.365561 7 90020000015130";
 
     const parsed = parse(barcode);
-    console.log(parsed);
+    // console.log(parsed);
   });
 });
